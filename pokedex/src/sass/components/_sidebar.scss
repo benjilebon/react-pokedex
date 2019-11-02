@@ -1,0 +1,32 @@
+#sidebar {
+    width: 33vw;
+    background-color: rgba(228, 228, 228, 0.7);
+    overflow: scroll;
+
+    >#filter {
+        padding: 20px;
+    }
+
+    .input-field>label {
+        pointer-events: none;
+        color: #000;
+    }
+
+    .input-field input {
+        color: #000;
+    }
+
+    .list-preloader {
+        min-height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .collection {
+        .collection-item {
+            text-transform: capitalize;
+        }
+    }
+}
